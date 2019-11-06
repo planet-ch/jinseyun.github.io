@@ -13,13 +13,17 @@ import {
   Header,
   Aside,
   Main,
-  Footer
+  Footer,
+  Carousel,
+  CarouselItem
 } from 'element-ui'
 Vue.use(Container);
 Vue.use(Header);
 Vue.use(Aside);
 Vue.use(Main);
 Vue.use(Footer);
+Vue.use(Carousel);
+Vue.use(CarouselItem);
 
 
 Vue.config.productionTip = false
